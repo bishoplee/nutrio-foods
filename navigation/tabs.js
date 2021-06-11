@@ -22,7 +22,7 @@ const Tabs = () => {
                     left: 0,
                     right: 0,
                     elevation: 0,
-                    backgroundColor: COLORS.gray3,
+                    backgroundColor: "transparent",
                     borderTopColor: "transparent",
                     height: (Platform.OS == 'android') ? 60 : 80
                 }
@@ -37,8 +37,8 @@ const Tabs = () => {
                             source={icons.home}
                             resizeMode="contain"
                             style={{
-                                width: 35,
-                                height: 35,
+                                width: 24,
+                                height: 24,
                                 tintColor: focused ? COLORS.primary : COLORS.black
                             }}
                         />
@@ -54,8 +54,8 @@ const Tabs = () => {
                             source={icons.bubbleTea}
                             resizeMode="contain"
                             style={{
-                                width: 35,
-                                height: 35,
+                                width: 24,
+                                height: 24,
                                 tintColor: focused ? COLORS.primary : COLORS.black
                             }}
                         />
@@ -72,8 +72,8 @@ const Tabs = () => {
                             source={icons.add}
                             resizeMode="contain"
                             style={{
-                                width: 35,
-                                height: 35,
+                                width: 24,
+                                height: 24,
                                 tintColor: COLORS.white
                             }}
                         />
@@ -89,8 +89,8 @@ const Tabs = () => {
                             source={icons.heart}
                             resizeMode="contain"
                             style={{
-                                width: 35,
-                                height: 35,
+                                width: 24,
+                                height: 24,
                                 tintColor: focused ? COLORS.primary : COLORS.black
                             }}
                         />
@@ -106,8 +106,8 @@ const Tabs = () => {
                             source={icons.profile}
                             resizeMode="contain"
                             style={{
-                                width: 35,
-                                height: 35,
+                                width: 24,
+                                height: 24,
                                 tintColor: focused ? COLORS.primary : COLORS.black
                             }}
                         />
